@@ -34,7 +34,7 @@ from datetime import date
 from lxml import html
 from scholarly import scholarly
 
-
+from urllib.request import Request, urlopen
 # -----------------------------------------------------------------------------
 # Part 1: Web Scraping (Wikipedia Warm-up + Penn State Faculty Pages)
 # -----------------------------------------------------------------------------
@@ -70,6 +70,7 @@ wiki_url = "https://en.wikipedia.org/wiki/Thomas_Brunell"
 
 # Read all HTML tables that match the "infobox" class
 wiki_tables = pd.read_html(wiki_url, attrs={"class": "infobox"})
+
 
 # Take the first infobox table on the page
 wiki_table = wiki_tables[0]
