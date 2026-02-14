@@ -34,7 +34,7 @@ from datetime import date
 from lxml import html
 from scholarly import scholarly
 
-from urllib.request import Request, urlopen
+
 # -----------------------------------------------------------------------------
 # Part 1: Web Scraping (Wikipedia Warm-up + Penn State Faculty Pages)
 # -----------------------------------------------------------------------------

@@ -8,7 +8,7 @@
 #
 # --- Step A: Clone the instructor repository ---
 # 1) Choose (or create) a folder where you want to keep course projects:
-#    cd <"/Users/songtao/Dropbox/26SP/SODA 501">
+#    cd "/Users/songtao/Dropbox/26SP/SODA 501"
 #    pwd 
 #
 # 2) Clone the instructor repo (& rename cloned folder)
@@ -26,6 +26,7 @@
 #
 # --- Step B: Create YOUR OWN GitHub repository and push your work ---
 # 6) Create a new repo on GitHub (web): e.g., soda501_sp26
+#    git init soda501_sp26
 #
 # 7) Check your current branch name:
 #    git branch
@@ -36,19 +37,29 @@
 # 9) Confirm remotes:
 #    git remote -v
 #
-# 10) Stage, commit, and push your changes:
-#     git add .
+# 10) Stage, commit, and push your changes: 
+#     git add .  
 #     git commit -m "PS: reproducible workflow + regressions + plots"
 #     git push -u origin main
-#
+
+# "add .  = all files in the current directory and subdirectories"
 
 # FOR LATER WEEKS 
 # First, copy weekly subfolder from soda501_clones to soda501_sp26 and rename it as week_x_ps
+
+# cd <"/Users/songtao/Dropbox/26SP/SODA 501">
+# ls 
+# cp -R soda501_clones/02_reproducibility soda501_sp26/week2_ps
+
+
 # Then work inside soda501_sp26 folder by changing cd
 # Add - Commit - Push 
 
 ### cd "/Users/songtao/Dropbox/26SP/SODA 501/soda501_sp26"
 ### git status
-### git add week_x_ps
-### git commit -m "PS: Week X"
+### git add week_2_ps
+### git commit -m "PS: week 2"
 ### git push -u origin main
+
+#  "m allows a log message without opening a text editor"-
+
