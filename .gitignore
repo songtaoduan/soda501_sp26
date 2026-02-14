@@ -17,3 +17,11 @@
 04_text_as_data_ps/data_processed/
 04_text_as_data_ps/outputs/
 04_text_as_data_ps/figures/
+
+# macOS
+.DS_Store
+
+# Large raw files (do not upload to GitHub)
+04_text_as_data_ps/demo/MovieSummaries.tar
+04_text_as_data_ps/demo/MovieSummaries_extracted/
+
