@@ -1,17 +1,2 @@
-# (empty)
-
-# Ignore generated data/outputs
-05_experiments/data/
-05_experiments/outputs/
-05_experiments/analysis_log.txt
-**/.DS_Store
-
-05_experiments/data/
-05_experiments/outputs/
-05_experiments/analysis_log.txt
-**/.DS_Store
-05_experiments/data/
-**/.DS_Store
-**/.DS_Store
 05_experiments/data/
 **/.DS_Store
